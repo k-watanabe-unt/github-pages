@@ -1,0 +1,99 @@
+/*
+* top.css
+*
+*/
+/* --------------------------------
+   vars
+-------------------------------- */
+/* --------------------------------
+   top
+-------------------------------- */
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #171a26;
+  color: #fff; 
+  font-size: 1.0em;
+}
+
+.container {
+  min-height: 100vh;
+}
+
+.bg {
+  display: flex;
+  position: fixed;
+  z-index: -1; 
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg_box {
+  width: 20vw;
+  width: calc(100% / 8);
+  height: 20vh;
+  height: calc(100% / 8);
+  background-image: url(/img/top/img01.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+}
+
+.content {
+  position: relative;
+  z-index: 10; 
+  width: 100%;
+}
+
+.content_section {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%; 
+
+  justify-content: center;
+  align-items: center;
+}
+
+.content_inner {
+  padding: 80px;
+  width: 80%;
+  min-width: 750px;
+  min-height: 500px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.content_title {
+  text-align: center; 
+  color: #252a3d;
+  font-size: 6.0em;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.content_text {
+  margin-top: 50px;
+  color: #252a3d; 
+  font-size: 2.0em;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+#fp-nav {
+  border-radius: 20px; 
+  background-color: rgba(255, 255, 255, 0.2);
+}
+#fp-nav ul li a span {
+  background-color: rgba(255, 255, 255, 0.7);
+}

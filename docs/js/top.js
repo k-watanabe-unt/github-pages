@@ -55,7 +55,7 @@
 
 
       var setBgIndex = function setBgIndex(index) {
-        var url = 'url(/img/top/img0' + index + '.jpeg)';
+        var url = 'url(/docs/img/top/img0' + index + '.jpeg)';
         gsap.set($('.js-bg-box'), {
           backgroundImage: url,
           onComplete: function onComplete() {
